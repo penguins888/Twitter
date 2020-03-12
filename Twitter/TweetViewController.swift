@@ -18,7 +18,6 @@ class TweetViewController: UIViewController, UITextViewDelegate {
         
         tweetTextView.becomeFirstResponder()
         tweetTextView.delegate = self
-        
     }
     
     @IBAction func cancel(_ sender: Any) {
